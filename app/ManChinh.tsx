@@ -114,7 +114,7 @@ const ManChinh = () => {
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.headerText}>Find the best coffee for you</Text>
-        <Ionicons name="person-circle-outline" size={30} color="#fff" />
+        <Ionicons name="person-circle-outline" marginTop = {30} size={30} color="#fff" />
       </View>
       <TextInput
         style={styles.searchInput}
@@ -180,6 +180,8 @@ const styles = StyleSheet.create({
     marginVertical: 20,
   },
   headerText: {
+    // padding: 30,
+    marginTop: 30,
     fontSize: 24,
     fontWeight: "bold",
     color: "#fff",
